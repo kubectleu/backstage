@@ -83,6 +83,12 @@ import {
   /* highlight-add-next-line */
   isPermission,
 } from '@backstage/plugin-permission-common';
+import {
+  PermissionPolicy,
+  PolicyQuery,
+  /* highlight-add-next-line */
+  PolicyQueryUser,
+} from '@backstage/plugin-permission-node';
 /* highlight-add-start */
 import {
   catalogConditions,
